@@ -1,0 +1,106 @@
+{
+  "updated": "2026-11-19",
+  "entries": [
+    {
+      "id": "reverse-slider",
+      "category": "reverse",
+      "title": "某电商平台滑块验证码逆向",
+      "desc": "登录滑块轨迹与加密参数分析，还原混淆逻辑，复现完整验证流程。",
+      "tags": ["JS 逆向", "反混淆", "滑块验证"],
+      "href": "detail/reverse-slider.html",
+      "post": "",
+      "draft": true
+    },
+    {
+      "id": "reverse-signature",
+      "category": "reverse",
+      "title": "接口签名参数还原与反调试绕过",
+      "desc": "定位前端加密入口，还原签名算法与时间戳校验，处理 debugger 与环境检测。",
+      "tags": ["接口签名", "反调试", "加密分析"],
+      "href": "detail/reverse-signature.html",
+      "post": "",
+      "draft": true
+    },
+    {
+      "id": "reverse-font",
+      "category": "reverse",
+      "title": "字体反爬 woff 映射还原",
+      "desc": "动态 woff 字体解析，建立字形坐标到真实文本的映射方案。",
+      "tags": ["字体反爬", "woff", "数据还原"],
+      "href": "detail/reverse-font.html",
+      "post": "",
+      "draft": true
+    },
+    {
+      "id": "review-idor",
+      "category": "review",
+      "title": "某系统水平越权漏洞复盘",
+      "desc": "从参数观察到越权验证，梳理漏洞成因、影响范围与修复建议。",
+      "tags": ["越权", "漏洞验证", "安全复盘"],
+      "href": "detail/review-idor.html",
+      "post": "",
+      "draft": true
+    },
+    {
+      "id": "review-ctf",
+      "category": "review",
+      "title": "CTF Web 方向题目复盘",
+      "desc": "SQL 注入、文件上传、反序列化等题型的解题思路与 payload 记录。",
+      "tags": ["CTF", "Web 攻防", "Writeup"],
+      "href": "detail/review-ctf.html",
+      "post": "",
+      "draft": true
+    },
+    {
+      "id": "review-recon",
+      "category": "review",
+      "title": "信息收集与攻击面梳理流程",
+      "desc": "子域名、端口、指纹与目录扫描的标准化流程与工具组合。",
+      "tags": ["信息收集", "攻击面", "资产测绘"],
+      "href": "detail/review-recon.html",
+      "post": "",
+      "draft": true
+    },
+    {
+      "id": "tools-spider",
+      "category": "tools",
+      "title": "异步爬虫框架",
+      "desc": "基于 asyncio 的并发采集框架，支持限速、重试与结果落库。",
+      "tags": ["Python", "爬虫", "asyncio"],
+      "href": "detail/tools-spider.html",
+      "post": "",
+      "draft": true
+    },
+    {
+      "id": "tools-antidebug",
+      "category": "tools",
+      "title": "反调试检测脚本",
+      "desc": "批量检测目标页面是否启用 debugger、无限断点等反调试手段。",
+      "tags": ["反调试", "检测", "自动化"],
+      "href": "detail/tools-antidebug.html",
+      "post": "",
+      "draft": true
+    },
+    {
+      "id": "tools-batch",
+      "category": "tools",
+      "title": "批量请求与结果聚合工具",
+      "desc": "参数化批量请求、响应解析与结果聚合导出，适合接口测试场景。",
+      "tags": ["自动化", "接口测试", "数据处理"],
+      "href": "detail/tools-batch.html",
+      "draft": true,
+      "post":""
+    },
+    {
+      "id": "reverse-wyy",
+      "category": "reverse",
+      "title": "网易云音乐搜索接口逆向",
+      "desc": "抓包分析网易云 weapi 加密参数，XHR 断点定位，复现 AES 双重加密与 RSA 非标准逻辑。",
+      "tags": ["JS 逆向", "AES", "RSA", "网易云"],
+      "date": "2026-11-20",
+      "href": "detail.html?post=reverse-wyy",
+      "post": "posts/writeup_wyy.md",
+      "draft": false
+    }
+  ]
+}
